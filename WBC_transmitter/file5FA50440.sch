@@ -144,4 +144,8 @@ Wire Wire Line
 	3300 2750 3400 2750
 Text GLabel 3400 4650 0    50   Input ~ 0
 IND_CUR
+Wire Wire Line
+	7200 -2100 7200 -3500
+Wire Wire Line
+	7200 -3500 4200 -3500
 $EndSCHEMATC
