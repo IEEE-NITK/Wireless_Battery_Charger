@@ -1,0 +1,147 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 3
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L WBC_transmitter-rescue:PIC16F1933-I_SS-PIC16F1933-I_SS U4
+U 1 1 5FA53753
+P 6000 3550
+AR Path="/5FA53753" Ref="U4"  Part="1" 
+AR Path="/5FA50441/5FA53753" Ref="U4"  Part="1" 
+F 0 "U4" H 6000 5320 50  0000 C CNN
+F 1 "PIC16F1933-I_SS" H 6000 5229 50  0000 C CNN
+F 2 "PIC16F1933-I_SS:SOP65P780X200-28N" H 6000 3550 50  0001 L BNN
+F 3 "" H 6000 3550 50  0001 C CNN
+	1    6000 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Crystal Y1
+U 1 1 5FA55C95
+P 1950 3000
+F 0 "Y1" V 1996 2869 50  0000 R CNN
+F 1 "Crystal" V 1905 2869 50  0000 R CNN
+F 2 "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P5.08mm_Vertical" H 1950 3000 50  0001 C CNN
+F 3 "~" H 1950 3000 50  0001 C CNN
+	1    1950 3000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1950 2850 1950 2800
+Wire Wire Line
+	1950 2650 3400 2650
+Wire Wire Line
+	1950 3150 1950 3250
+Wire Wire Line
+	1950 4550 3400 4550
+$Comp
+L Device:C C11
+U 1 1 5FA56BDD
+P 1650 2800
+F 0 "C11" V 1398 2800 50  0000 C CNN
+F 1 "C" V 1489 2800 50  0000 C CNN
+F 2 "Capacitor_THT:C_Disc_D9.0mm_W2.5mm_P5.00mm" H 1688 2650 50  0001 C CNN
+F 3 "~" H 1650 2800 50  0001 C CNN
+	1    1650 2800
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C12
+U 1 1 5FA5743C
+P 1650 3250
+F 0 "C12" V 1398 3250 50  0000 C CNN
+F 1 "C" V 1489 3250 50  0000 C CNN
+F 2 "Capacitor_THT:C_Disc_D9.0mm_W2.5mm_P5.00mm" H 1688 3100 50  0001 C CNN
+F 3 "~" H 1650 3250 50  0001 C CNN
+	1    1650 3250
+	0    1    1    0   
+$EndComp
+Text GLabel 1350 3000 0    50   Input ~ 0
+GND
+Wire Wire Line
+	1350 3000 1450 3000
+Wire Wire Line
+	1450 3000 1450 2800
+Wire Wire Line
+	1450 2800 1500 2800
+Wire Wire Line
+	1500 3250 1450 3250
+Wire Wire Line
+	1450 3250 1450 3000
+Connection ~ 1450 3000
+Wire Wire Line
+	1800 3250 1950 3250
+Connection ~ 1950 3250
+Wire Wire Line
+	1950 3250 1950 4550
+Wire Wire Line
+	1800 2800 1950 2800
+Connection ~ 1950 2800
+Wire Wire Line
+	1950 2800 1950 2650
+Text GLabel 3300 4150 0    50   Input ~ 0
+BUCK_PWM
+Text GLabel 3300 3450 0    50   Input ~ 0
+BUCK_PWM_INV
+Text GLabel 3300 3150 0    50   Input ~ 0
+BOOST_PWM
+Text GLabel 3300 3250 0    50   Input ~ 0
+BOOST_PWM_INV
+Text GLabel 8700 3850 2    50   Input ~ 0
+INVERTER_PWM
+Text GLabel 8700 3950 2    50   Input ~ 0
+INVERTER_PWM_INV
+Wire Wire Line
+	3300 3150 3400 3150
+Wire Wire Line
+	3300 3250 3400 3250
+Wire Wire Line
+	3300 3450 3400 3450
+Wire Wire Line
+	3300 4150 3400 4150
+Wire Wire Line
+	8600 3850 8700 3850
+Wire Wire Line
+	8600 3950 8700 3950
+Text GLabel 3250 4850 0    50   Input ~ 0
+MCLR
+Wire Wire Line
+	3250 4850 3400 4850
+Text GLabel 8750 2550 2    50   Input ~ 0
+PGD
+Text GLabel 8750 2450 2    50   Input ~ 0
+PGC
+Wire Wire Line
+	8600 2450 8750 2450
+Wire Wire Line
+	8600 2550 8750 2550
+Text GLabel 8700 5050 2    50   Input ~ 0
+GND
+Text GLabel 8750 2050 2    50   Input ~ 0
++5V
+Wire Wire Line
+	8600 2050 8750 2050
+Wire Wire Line
+	8600 5050 8700 5050
+Text GLabel 3300 2950 0    50   Input ~ 0
+GRID_V_SEN
+Text GLabel 3300 2750 0    50   Input ~ 0
+GRID_C_SEN
+Wire Wire Line
+	3300 2950 3400 2950
+Wire Wire Line
+	3300 2750 3400 2750
+Text GLabel 3400 4650 0    50   Input ~ 0
+IND_CUR
+$EndSCHEMATC
