@@ -1,4 +1,0 @@
-Plan for the end of December.
-The individual components(except resonance converter) are ready. Sir might suggest some changes. The plan for end of December is as follows: 
-Complete the individual schematic(including resonance converter) and simulate the individual components together.
- 

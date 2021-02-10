@@ -1,4 +1,0 @@
-(sym_lib_table
-  (lib (name WBC_transmitter-rescue)(type Legacy)(uri ${KIPRJMOD}/WBC_transmitter-rescue.lib)(options "")(descr ""))
-  (lib (name PIC16F1933-I_SS)(type Legacy)(uri D:/wireless_battery_charger/PIC16F1933-I_SS.lib)(options "")(descr ""))
-)
