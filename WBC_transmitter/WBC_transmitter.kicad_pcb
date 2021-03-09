@@ -1,9 +1,11 @@
+
 (kicad_pcb (version 20171130) (host pcbnew "(5.1.6)-1")
 
   (general
     (thickness 1.6)
     (drawings 4)
     (tracks 1193)
+
     (zones 0)
     (modules 96)
     (nets 86)
@@ -4592,9 +4594,11 @@
   (gr_line (start 264 40) (end 264 152) (layer Edge.Cuts) (width 0.05))
   (gr_line (start 40 40) (end 264 40) (layer Edge.Cuts) (width 0.05))
 
+
   (segment (start 144.86 111.76) (end 147.4 114.3) (width 0.25) (layer B.Cu) (net 1) (status 20))
   (segment (start 131.135001 111.76) (end 144.86 111.76) (width 0.25) (layer B.Cu) (net 1) (status 10))
   (segment (start 121.86499 135.94501) (end 123.19 134.62) (width 0.25) (layer F.Cu) (net 2) (status 20))
+
   (segment (start 106.73501 135.94501) (end 121.86499 135.94501) (width 0.25) (layer F.Cu) (net 2))
   (segment (start 104.14 133.35) (end 106.73501 135.94501) (width 0.25) (layer F.Cu) (net 2) (status 10))
   (via (at 135.89 133.35) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 2) (status 30))
@@ -4663,8 +4667,10 @@
   (segment (start 158.75 92.71) (end 166.37 92.71) (width 0.25) (layer B.Cu) (net 6) (status 30))
   (segment (start 183.706359 85.395011) (end 180.363598 85.39501) (width 0.25) (layer B.Cu) (net 6))
   (segment (start 184.15 84.95137) (end 183.706359 85.395011) (width 0.25) (layer B.Cu) (net 6))
+
   (segment (start 184.15 83.82) (end 184.15 84.95137) (width 0.25) (layer B.Cu) (net 6) (status 10))
   (segment (start 180.034989 80.315011) (end 184.15 76.2) (width 0.25) (layer B.Cu) (net 6) (status 20))
+
   (segment (start 180.034989 85.066401) (end 180.034989 81.077011) (width 0.25) (layer B.Cu) (net 6))
   (segment (start 186.779992 85.39501) (end 180.363598 85.39501) (width 0.25) (layer B.Cu) (net 6))
   (segment (start 187.815001 84.360001) (end 186.779992 85.39501) (width 0.25) (layer B.Cu) (net 6))
@@ -4677,6 +4683,7 @@
   (segment (start 210.964999 78.595001) (end 200.910003 78.595001) (width 0.25) (layer B.Cu) (net 6))
   (segment (start 190.355001 75.074999) (end 189.23 76.2) (width 0.25) (layer B.Cu) (net 6) (status 20))
   (segment (start 212.09 77.47) (end 210.964999 78.595001) (width 0.25) (layer B.Cu) (net 6))
+
   (via (at 133.35 137.16) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 6))
   (segment (start 173.115002 137.16) (end 133.35 137.16) (width 0.25) (layer F.Cu) (net 6))
   (via (at 133.35 133.35) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 6) (status 30))
@@ -4690,6 +4697,7 @@
   (segment (start 140.77 73.58) (end 142.675001 75.485001) (width 0.25) (layer B.Cu) (net 6) (status 20))
   (segment (start 132.08 73.58) (end 140.77 73.58) (width 0.25) (layer B.Cu) (net 6) (status 10))
   (segment (start 132.08 70.245002) (end 132.08 73.58) (width 0.25) (layer B.Cu) (net 6) (status 20))
+
   (segment (start 130.81 68.975002) (end 132.08 70.245002) (width 0.25) (layer B.Cu) (net 6))
   (segment (start 130.81 57.15) (end 130.81 68.975002) (width 0.25) (layer B.Cu) (net 6) (status 10))
   (segment (start 181.61 125.59137) (end 167.64 111.62137) (width 0.25) (layer B.Cu) (net 6))
@@ -4698,10 +4706,12 @@
   (segment (start 177.8 137.16) (end 181.61 133.35) (width 0.25) (layer F.Cu) (net 6) (status 20))
   (segment (start 172.72 137.16) (end 173.115002 137.16) (width 0.25) (layer F.Cu) (net 6))
   (segment (start 166.41 137.16) (end 172.72 137.16) (width 0.25) (layer F.Cu) (net 6))
+
   (segment (start 166.29 58.5) (end 167.64 57.15) (width 0.25) (layer F.Cu) (net 6) (status 20))
   (segment (start 166.29 64.77) (end 166.29 58.5) (width 0.25) (layer F.Cu) (net 6) (status 10))
   (segment (start 132.08 73.66) (end 132.08 73.58) (width 0.25) (layer F.Cu) (net 6) (status 30))
   (segment (start 215.9 120.57) (end 219.63 116.84) (width 0.25) (layer B.Cu) (net 6) (status 10))
+
   (via (at 219.71 116.84) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 6))
   (segment (start 219.63 116.84) (end 219.71 116.84) (width 0.25) (layer B.Cu) (net 6))
   (segment (start 218.44 92.63) (end 226.06 100.25) (width 0.25) (layer F.Cu) (net 6) (status 20))
@@ -4713,11 +4723,13 @@
   (segment (start 215.9 82.55) (end 215.9 81.28) (width 0.25) (layer B.Cu) (net 6))
   (segment (start 215.9 81.28) (end 214.397348 79.777348) (width 0.25) (layer B.Cu) (net 6))
   (segment (start 214.397348 79.777348) (end 212.09 77.47) (width 0.25) (layer F.Cu) (net 6))
+
   (segment (start 177.494989 96.825011) (end 181.61 92.71) (width 0.25) (layer F.Cu) (net 6) (status 20))
   (segment (start 181.61 97.79) (end 180.645011 98.754989) (width 0.25) (layer F.Cu) (net 6) (status 10))
   (via (at 179.985257 85.405565) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 6))
   (segment (start 233.850001 98.889999) (end 234.95 97.79) (width 0.25) (layer B.Cu) (net 6) (status 20))
   (segment (start 160.325 73.985) (end 164.775 73.985) (width 0.25) (layer F.Cu) (net 6) (status 10))
+
   (segment (start 180.034989 81.077011) (end 180.034989 80.315011) (width 0.25) (layer B.Cu) (net 6) (tstamp 601DADFA))
   (via (at 180.034989 81.077011) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 6))
   (segment (start 180.034989 80.580011) (end 180.034989 81.077011) (width 0.25) (layer F.Cu) (net 6))
@@ -4726,6 +4738,7 @@
   (segment (start 169.164 76.511002) (end 169.577999 76.925001) (width 0.25) (layer F.Cu) (net 6))
   (segment (start 169.164 75.692) (end 169.164 76.511002) (width 0.25) (layer F.Cu) (net 6))
   (segment (start 168.757 75.285) (end 169.164 75.692) (width 0.25) (layer F.Cu) (net 6))
+
   (segment (start 167.335 75.285) (end 168.757 75.285) (width 0.25) (layer F.Cu) (net 6) (status 10))
   (segment (start 164.775 73.985) (end 164.909998 73.985) (width 0.25) (layer F.Cu) (net 6) (tstamp 601DB125))
   (via (at 164.775 73.985) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 6))
@@ -4735,16 +4748,20 @@
   (segment (start 167.335 75.285) (end 166.075 75.285) (width 0.25) (layer F.Cu) (net 6) (status 10))
   (segment (start 179.985257 85.405565) (end 180.024435 85.405565) (width 0.25) (layer F.Cu) (net 6))
   (segment (start 166.37 92.71) (end 173.99 92.71) (width 0.25) (layer F.Cu) (net 6) (status 30))
+
   (segment (start 177.334977 96.664999) (end 177.494989 96.825011) (width 0.25) (layer F.Cu) (net 6))
   (segment (start 173.739997 96.664999) (end 177.334977 96.664999) (width 0.25) (layer F.Cu) (net 6))
   (segment (start 172.864999 95.790001) (end 173.739997 96.664999) (width 0.25) (layer F.Cu) (net 6))
   (segment (start 172.864999 93.835001) (end 172.864999 95.790001) (width 0.25) (layer F.Cu) (net 6))
+
   (segment (start 173.99 92.71) (end 172.864999 93.835001) (width 0.25) (layer F.Cu) (net 6) (status 10))
+
   (segment (start 178.961987 98.754989) (end 180.645011 98.754989) (width 0.25) (layer F.Cu) (net 6))
   (segment (start 177.494989 97.287991) (end 178.961987 98.754989) (width 0.25) (layer F.Cu) (net 6))
   (segment (start 177.494989 96.825011) (end 177.494989 97.287991) (width 0.25) (layer F.Cu) (net 6))
   (segment (start 179.579691 84.999999) (end 175.986411 84.999999) (width 0.25) (layer F.Cu) (net 6))
   (segment (start 179.985257 85.405565) (end 179.579691 84.999999) (width 0.25) (layer F.Cu) (net 6))
+
   (segment (start 175.804999 86.904999) (end 181.61 92.71) (width 0.25) (layer F.Cu) (net 6) (status 20))
   (segment (start 175.804999 85.181411) (end 175.804999 86.904999) (width 0.25) (layer F.Cu) (net 6))
   (segment (start 175.986411 84.999999) (end 175.804999 85.181411) (width 0.25) (layer F.Cu) (net 6))
@@ -4810,6 +4827,7 @@
   (via (at 153.67 133.35) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 8) (status 30))
   (segment (start 153.67 138.43) (end 153.67 133.35) (width 0.25) (layer B.Cu) (net 8) (status 20))
   (segment (start 153.67 133.35) (end 149.86 133.35) (width 0.25) (layer B.Cu) (net 8) (status 10))
+
   (segment (start 149.86 133.35) (end 147.32 130.81) (width 0.25) (layer B.Cu) (net 8))
   (via (at 147.32 130.81) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 8))
   (segment (start 132.680012 130.81) (end 120.435011 118.564999) (width 0.25) (layer F.Cu) (net 8) (status 20))
@@ -4882,6 +4900,7 @@
   (segment (start 124.02818 133.29499) (end 125.4082 134.67501) (width 0.25) (layer F.Cu) (net 10))
   (segment (start 125.4082 134.67501) (end 154.88499 134.67501) (width 0.25) (layer F.Cu) (net 10))
   (segment (start 122.01501 133.29499) (end 124.02818 133.29499) (width 0.25) (layer F.Cu) (net 10))
+
   (segment (start 120.69 134.62) (end 122.01501 133.29499) (width 0.25) (layer F.Cu) (net 10) (status 10))
   (segment (start 120.115001 113.564999) (end 119.985001 113.564999) (width 0.25) (layer B.Cu) (net 10) (status 30))
   (segment (start 132.08 68.58) (end 133.985 68.58) (width 0.25) (layer F.Cu) (net 10) (status 10))
@@ -4927,6 +4946,7 @@
   (segment (start 233.68 115.57) (end 235.585 115.57) (width 0.25) (layer B.Cu) (net 13))
   (segment (start 241.3 107.95) (end 241.3 107.87) (width 0.25) (layer F.Cu) (net 14) (status 30))
   (segment (start 241.3 107.87) (end 241.3 107.95) (width 0.25) (layer B.Cu) (net 14) (status 30))
+
   (segment (start 232.41 74.93) (end 234.95 77.47) (width 0.25) (layer B.Cu) (net 14))
   (segment (start 226.06 74.93) (end 232.41 74.93) (width 0.25) (layer B.Cu) (net 14) (status 10))
   (segment (start 239.72499 106.29499) (end 241.3 107.87) (width 0.25) (layer F.Cu) (net 14) (status 20))
@@ -4948,6 +4968,7 @@
   (via (at 229.794846 88.824846) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 15))
   (segment (start 229.87 81.28) (end 229.87 88.749692) (width 0.25) (layer B.Cu) (net 15))
   (segment (start 229.87 88.749692) (end 229.794846 88.824846) (width 0.25) (layer B.Cu) (net 15))
+
   (segment (start 229.68 66.31) (end 226.06 69.93) (width 0.25) (layer F.Cu) (net 15))
   (segment (start 234.95 66.31) (end 229.68 66.31) (width 0.25) (layer F.Cu) (net 15))
   (segment (start 241.3 66.31) (end 234.95 66.31) (width 0.25) (layer F.Cu) (net 15))
@@ -5029,6 +5050,7 @@
   (segment (start 160.489999 70.650001) (end 162.090001 70.650001) (width 0.25) (layer F.Cu) (net 20) (status 10))
   (segment (start 160.405 70.735) (end 160.489999 70.650001) (width 0.25) (layer F.Cu) (net 20) (status 30))
   (segment (start 160.325 70.735) (end 160.405 70.735) (width 0.25) (layer F.Cu) (net 20) (status 30))
+
   (segment (start 162.090001 70.650001) (end 162.56 71.12) (width 0.25) (layer F.Cu) (net 20))
   (segment (start 162.56 71.12) (end 162.56 72.136) (width 0.25) (layer F.Cu) (net 20))
   (via (at 162.56 72.136) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 20))
@@ -5046,6 +5068,7 @@
   (segment (start 175.7086 85.27499) (end 175.894295 85.089295) (width 0.25) (layer B.Cu) (net 20))
   (segment (start 175.894295 85.089295) (end 175.983591 84.999999) (width 0.25) (layer B.Cu) (net 20))
   (segment (start 177.709999 84.999999) (end 178.435 85.725) (width 0.25) (layer B.Cu) (net 20))
+
   (via (at 178.435 85.725) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 20))
   (segment (start 193.81222 93.98) (end 202.565 93.98) (width 0.25) (layer F.Cu) (net 20))
   (segment (start 185.962786 86.130566) (end 193.81222 93.98) (width 0.25) (layer F.Cu) (net 20))
@@ -5061,6 +5084,7 @@
   (via (at 219.964 127.508) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 20))
   (segment (start 219.964 133.096) (end 217.17 135.89) (width 0.25) (layer B.Cu) (net 20))
   (segment (start 219.964 127.508) (end 219.964 133.096) (width 0.25) (layer B.Cu) (net 20))
+
   (via (at 231.14 86.36) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 21))
   (segment (start 227.33 90.17) (end 231.14 86.36) (width 0.25) (layer F.Cu) (net 21))
   (segment (start 235.305001 82.194999) (end 235.305001 81.254999) (width 0.25) (layer B.Cu) (net 21) (status 30))
@@ -5075,7 +5099,9 @@
   (segment (start 237.41 111.76) (end 234.95 109.3) (width 0.25) (layer B.Cu) (net 21))
   (segment (start 234.95 109.3) (end 234.95 107.95) (width 0.25) (layer B.Cu) (net 21) (status 20))
   (segment (start 243.84 111.76) (end 237.41 111.76) (width 0.25) (layer B.Cu) (net 21))
+
   (segment (start 160.325 70.085) (end 162.541 70.085) (width 0.25) (layer F.Cu) (net 21) (status 10))
+
   (segment (start 162.541 70.085) (end 163.576 71.12) (width 0.25) (layer F.Cu) (net 21))
   (via (at 163.576 71.12) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 21))
   (segment (start 163.576 73.859002) (end 166.116 76.399002) (width 0.25) (layer B.Cu) (net 21))
@@ -5100,6 +5126,7 @@
   (segment (start 201.295 59.69) (end 217.17 59.69) (width 0.25) (layer B.Cu) (net 21))
   (segment (start 217.17 59.69) (end 224.155 66.675) (width 0.25) (layer B.Cu) (net 21))
   (segment (start 224.155 66.675) (end 229.235 66.675) (width 0.25) (layer B.Cu) (net 21))
+
   (segment (start 229.235 66.675) (end 230.8225 68.2625) (width 0.25) (layer B.Cu) (net 21))
   (segment (start 231.14 68.58) (end 230.8225 68.2625) (width 0.25) (layer B.Cu) (net 21) (tstamp 6023B0B2))
   (via (at 231.14 68.58) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 21))
@@ -5113,6 +5140,7 @@
   (via (at 232.590002 89.989998) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 21))
   (segment (start 231.14 88.539996) (end 232.590002 89.989998) (width 0.25) (layer F.Cu) (net 21))
   (segment (start 231.14 86.36) (end 231.14 88.539996) (width 0.25) (layer F.Cu) (net 21))
+
   (via (at 170.18 102.87) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 22))
   (segment (start 198.710001 86.974999) (end 198.775001 87.039999) (width 0.25) (layer B.Cu) (net 22))
   (segment (start 173.449999 96.664999) (end 176.359979 96.664999) (width 0.25) (layer B.Cu) (net 22))
@@ -5144,8 +5172,10 @@
   (via (at 171.45 96.52) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 22))
   (segment (start 171.45 101.6) (end 170.18 102.87) (width 0.25) (layer F.Cu) (net 22))
   (segment (start 171.45 96.52) (end 171.45 101.6) (width 0.25) (layer F.Cu) (net 22))
+
   (segment (start 147.325001 80.565001) (end 156.924999 80.565001) (width 0.25) (layer F.Cu) (net 22) (status 10))
   (segment (start 156.924999 80.565001) (end 158.115 79.375) (width 0.25) (layer F.Cu) (net 22))
+
   (via (at 158.115 79.375) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 22))
   (segment (start 168.275 79.375) (end 168.177342 79.472658) (width 0.25) (layer F.Cu) (net 22))
   (via (at 160.528 79.248) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 22))
@@ -5164,12 +5194,15 @@
   (segment (start 168.191999 74.719999) (end 167.64 74.719999) (width 0.25) (layer F.Cu) (net 22) (status 30))
   (segment (start 168.545001 74.719999) (end 168.191999 74.719999) (width 0.25) (layer F.Cu) (net 22) (status 20))
   (segment (start 168.275 79.375) (end 169.291 79.375) (width 0.25) (layer B.Cu) (net 22))
+
   (via (at 163.83 69.215) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 22))
   (segment (start 164.465 69.85) (end 164.465 71.755) (width 0.25) (layer F.Cu) (net 22))
   (segment (start 163.83 69.215) (end 164.465 69.85) (width 0.25) (layer F.Cu) (net 22))
   (segment (start 165.500001 73.925003) (end 165.500001 72.790001) (width 0.25) (layer F.Cu) (net 22))
   (segment (start 166.209998 74.635) (end 165.500001 73.925003) (width 0.25) (layer F.Cu) (net 22))
+
   (segment (start 167.335 74.635) (end 166.209998 74.635) (width 0.25) (layer F.Cu) (net 22) (status 10))
+
   (segment (start 165.500001 72.790001) (end 164.465 71.755) (width 0.25) (layer F.Cu) (net 22))
   (segment (start 168.275 79.375) (end 167.875001 79.774999) (width 0.25) (layer F.Cu) (net 22))
   (segment (start 172.72 87.63) (end 171.45 88.9) (width 0.25) (layer F.Cu) (net 22))
@@ -5179,6 +5212,7 @@
   (segment (start 168.002001 79.647999) (end 168.275 79.375) (width 0.25) (layer F.Cu) (net 22))
   (segment (start 160.927999 79.647999) (end 168.002001 79.647999) (width 0.25) (layer F.Cu) (net 22))
   (segment (start 160.528 79.248) (end 160.927999 79.647999) (width 0.25) (layer F.Cu) (net 22))
+
   (segment (start 169.454999 91.788001) (end 169.454999 90.518001) (width 0.25) (layer F.Cu) (net 22))
   (segment (start 169.831999 92.165001) (end 169.454999 91.788001) (width 0.25) (layer F.Cu) (net 22))
   (segment (start 160.655 79.375) (end 160.528 79.248) (width 0.25) (layer F.Cu) (net 22))
@@ -5239,6 +5273,7 @@
   (via (at 158.75 95.25) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 25) (status 30))
   (via (at 186.69 83.82) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 25) (status 30))
   (segment (start 185.564999 82.694999) (end 186.69 83.82) (width 0.25) (layer B.Cu) (net 25) (status 20))
+
   (segment (start 182.735001 84.880001) (end 182.735001 83.331409) (width 0.25) (layer B.Cu) (net 25))
   (segment (start 182.670001 84.945001) (end 182.735001 84.880001) (width 0.25) (layer B.Cu) (net 25))
   (segment (start 183.371411 82.694999) (end 185.564999 82.694999) (width 0.25) (layer B.Cu) (net 25))
@@ -5258,7 +5293,9 @@
   (segment (start 173.99 95.25) (end 177.8 95.25) (width 0.25) (layer F.Cu) (net 25) (status 10))
   (segment (start 177.8 95.25) (end 179.07 93.98) (width 0.25) (layer F.Cu) (net 25))
   (segment (start 179.07 93.98) (end 180.34 92.71) (width 0.25) (layer B.Cu) (net 25))
+
   (segment (start 186.69 83.889999) (end 186.69 83.82) (width 0.25) (layer F.Cu) (net 25) (status 30))
+
   (segment (start 181.540001 88.9) (end 187.96 88.9) (width 0.25) (layer B.Cu) (net 25))
   (segment (start 187.96 88.9) (end 189.23 87.63) (width 0.25) (layer B.Cu) (net 25))
   (segment (start 189.23 86.36) (end 186.69 83.82) (width 0.25) (layer F.Cu) (net 25) (status 20))
@@ -5266,6 +5303,7 @@
   (segment (start 181.214998 88.9) (end 180.34 89.774998) (width 0.25) (layer B.Cu) (net 25))
   (segment (start 181.540001 88.9) (end 181.214998 88.9) (width 0.25) (layer B.Cu) (net 25))
   (segment (start 180.34 89.774998) (end 180.34 92.71) (width 0.25) (layer B.Cu) (net 25))
+
   (segment (start 139.7 81.000002) (end 139.7 92.71) (width 0.25) (layer F.Cu) (net 25))
   (segment (start 142.675001 78.025001) (end 139.7 81.000002) (width 0.25) (layer F.Cu) (net 25))
   (segment (start 139.7 92.71) (end 142.24 92.71) (width 0.25) (layer F.Cu) (net 25))
@@ -5284,6 +5322,7 @@
   (segment (start 209.55 86.36) (end 212.09 88.9) (width 0.25) (layer F.Cu) (net 25))
   (segment (start 186.69 83.82) (end 187.564998 83.82) (width 0.25) (layer F.Cu) (net 25))
   (segment (start 175.115001 101.744999) (end 173.99 102.87) (width 0.25) (layer B.Cu) (net 26) (status 20))
+
   (segment (start 175.115001 100.079997) (end 175.115001 101.744999) (width 0.25) (layer B.Cu) (net 26))
   (segment (start 181.069999 94.124999) (end 175.115001 100.079997) (width 0.25) (layer B.Cu) (net 26))
   (segment (start 186.149999 94.124999) (end 181.069999 94.124999) (width 0.25) (layer B.Cu) (net 26))
@@ -5308,6 +5347,7 @@
   (via (at 153.67 99.06) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 28))
   (segment (start 148.59 100.33) (end 149.86 99.06) (width 0.25) (layer B.Cu) (net 28))
   (segment (start 149.86 99.06) (end 153.67 99.06) (width 0.25) (layer B.Cu) (net 28))
+
   (segment (start 158.75 90.17) (end 158.115 90.17) (width 0.25) (layer F.Cu) (net 28))
   (segment (start 158.75 90.17) (end 155.575 93.345) (width 0.25) (layer B.Cu) (net 28))
   (segment (start 155.575 97.155) (end 153.67 99.06) (width 0.25) (layer B.Cu) (net 28))
@@ -5329,6 +5369,7 @@
   (segment (start 150.495 105.41) (end 150.495 97.885) (width 0.25) (layer F.Cu) (net 30))
   (segment (start 190.36137 105.41) (end 191.77 105.41) (width 0.25) (layer F.Cu) (net 31) (status 30))
   (segment (start 173.739997 104.284999) (end 190.644999 104.284999) (width 0.25) (layer B.Cu) (net 31) (status 20))
+
   (segment (start 172.864999 99.789999) (end 172.864999 103.410001) (width 0.25) (layer B.Cu) (net 31))
   (segment (start 173.449999 99.204999) (end 172.864999 99.789999) (width 0.25) (layer B.Cu) (net 31))
   (segment (start 172.864999 103.410001) (end 173.739997 104.284999) (width 0.25) (layer B.Cu) (net 31))
@@ -5336,6 +5377,7 @@
   (segment (start 190.644999 104.284999) (end 191.77 105.41) (width 0.25) (layer B.Cu) (net 31) (status 30))
   (segment (start 178.554294 95.180706) (end 174.530001 99.204999) (width 0.25) (layer B.Cu) (net 31))
   (segment (start 178.554294 94.734294) (end 178.554294 95.180706) (width 0.25) (layer B.Cu) (net 31))
+
   (segment (start 173.99 90.17) (end 178.554294 94.734294) (width 0.25) (layer B.Cu) (net 31) (status 10))
   (segment (start 175.26 110.76) (end 174.24 110.76) (width 0.25) (layer F.Cu) (net 31))
   (segment (start 174.24 110.76) (end 173 112) (width 0.25) (layer F.Cu) (net 31))
@@ -5395,6 +5437,7 @@
   (segment (start 182.138001 86.45) (end 183.388 87.699999) (width 0.25) (layer B.Cu) (net 32))
   (segment (start 172.72 86.45) (end 182.138001 86.45) (width 0.25) (layer B.Cu) (net 32))
   (segment (start 173.99 105.41) (end 179.07 105.41) (width 0.25) (layer B.Cu) (net 33) (status 10))
+
   (via (at 179.07 105.41) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 33))
   (segment (start 179.07 103.744998) (end 181.359997 101.455001) (width 0.25) (layer F.Cu) (net 33))
   (segment (start 179.07 105.41) (end 179.07 103.744998) (width 0.25) (layer F.Cu) (net 33))
@@ -5405,6 +5448,7 @@
   (segment (start 183.010003 100.33) (end 185.42 97.920003) (width 0.25) (layer B.Cu) (net 33))
   (via (at 185.42 97.79) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 33))
   (segment (start 185.42 97.920003) (end 185.42 97.79) (width 0.25) (layer B.Cu) (net 33))
+
   (segment (start 195.58 97.79) (end 196.85 96.52) (width 0.25) (layer F.Cu) (net 33) (status 30))
   (segment (start 188.325 97.79) (end 188.595 98.06) (width 0.25) (layer F.Cu) (net 33))
   (segment (start 185.42 97.79) (end 188.325 97.79) (width 0.25) (layer F.Cu) (net 33))
@@ -5416,6 +5460,7 @@
   (segment (start 193.04 99.568) (end 193.802 99.568) (width 0.25) (layer B.Cu) (net 33))
   (segment (start 212.09 96.52) (end 207.01 101.6) (width 0.25) (layer F.Cu) (net 34) (status 10))
   (segment (start 109.22 133.35) (end 110.54501 132.02499) (width 0.25) (layer F.Cu) (net 34) (status 10))
+
   (segment (start 177.255001 108.675001) (end 175.768 107.188) (width 0.25) (layer F.Cu) (net 34))
   (via (at 175.772653 107.192653) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 34))
   (segment (start 175.768 107.188) (end 175.772653 107.192653) (width 0.25) (layer F.Cu) (net 34))
@@ -5424,6 +5469,7 @@
   (segment (start 172.578998 105.664) (end 172.212 105.297002) (width 0.25) (layer B.Cu) (net 34))
   (segment (start 172.212 105.297002) (end 172.212 99.06) (width 0.25) (layer B.Cu) (net 34))
   (via (at 172.212 99.06) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 34))
+
   (via (at 159.774999 85.79999) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 34))
   (segment (start 159.722989 85.852) (end 159.774999 85.79999) (width 0.25) (layer F.Cu) (net 34))
   (segment (start 159.512 85.852) (end 159.722989 85.852) (width 0.25) (layer F.Cu) (net 34))
@@ -5475,6 +5521,7 @@
   (segment (start 193.548 101.6) (end 190.135 101.6) (width 0.25) (layer F.Cu) (net 34))
   (segment (start 113.03 87.63) (end 113.03 81.28) (width 0.25) (layer F.Cu) (net 35) (status 30))
   (segment (start 113.03 96.829002) (end 113.03 87.63) (width 0.25) (layer F.Cu) (net 35) (status 20))
+
   (segment (start 105.41 104.449002) (end 113.03 96.829002) (width 0.25) (layer F.Cu) (net 35))
   (segment (start 105.41 111.92) (end 105.41 104.449002) (width 0.25) (layer F.Cu) (net 35) (status 10))
   (segment (start 190.644999 80.154999) (end 194.31 83.82) (width 0.25) (layer F.Cu) (net 36) (status 20))
@@ -5490,15 +5537,18 @@
   (segment (start 180.945001 66.235001) (end 182.795001 66.235001) (width 0.25) (layer B.Cu) (net 37) (status 10))
   (segment (start 189.51 71.4) (end 190.5 72.39) (width 0.25) (layer B.Cu) (net 37))
   (segment (start 187.96 71.4) (end 189.51 71.4) (width 0.25) (layer B.Cu) (net 37))
+
   (segment (start 180.945001 71.995001) (end 181.34 72.39) (width 0.25) (layer F.Cu) (net 37))
   (segment (start 180.945001 66.235001) (end 180.945001 71.995001) (width 0.25) (layer F.Cu) (net 37))
   (segment (start 186.263591 56.494999) (end 178.56999 64.1886) (width 0.25) (layer B.Cu) (net 38))
   (segment (start 197.505001 57.495999) (end 196.504001 56.494999) (width 0.25) (layer B.Cu) (net 38))
   (segment (start 196.504001 56.494999) (end 186.263591 56.494999) (width 0.25) (layer B.Cu) (net 38))
   (segment (start 196.185001 66.235001) (end 196.185001 66.704999) (width 0.25) (layer B.Cu) (net 38) (status 30))
+
   (segment (start 193.06 125.73) (end 200.66 125.73) (width 0.25) (layer B.Cu) (net 38))
   (segment (start 186.69 133.35) (end 186.69 132.1) (width 0.25) (layer B.Cu) (net 38) (status 10))
   (segment (start 186.69 132.1) (end 193.06 125.73) (width 0.25) (layer B.Cu) (net 38))
+
   (segment (start 196.185001 66.235001) (end 197.505001 64.915001) (width 0.25) (layer B.Cu) (net 38) (status 10))
   (segment (start 197.505001 57.495999) (end 197.505001 64.915001) (width 0.25) (layer B.Cu) (net 38))
   (segment (start 196.185001 66.235001) (end 199.8 69.85) (width 0.25) (layer F.Cu) (net 38) (status 10))
@@ -5527,6 +5577,7 @@
   (segment (start 178.56999 69.56999) (end 179 70) (width 0.25) (layer B.Cu) (net 38))
   (segment (start 179 72.05) (end 179.34 72.39) (width 0.25) (layer F.Cu) (net 38))
   (segment (start 179 70) (end 179 72.05) (width 0.25) (layer F.Cu) (net 38))
+
   (via (at 196.85 78.74) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 39))
   (via (at 200.66 81.00499) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 39))
   (segment (start 196.85 78.74) (end 199.11499 81.00499) (width 0.25) (layer B.Cu) (net 39))
@@ -5540,6 +5591,7 @@
   (segment (start 177.8 99.645) (end 179.07 98.375) (width 0.25) (layer B.Cu) (net 39))
   (segment (start 177.8 100.33) (end 177.8 99.645) (width 0.25) (layer B.Cu) (net 39))
   (segment (start 179.07 98.375) (end 179.07 97.79) (width 0.25) (layer B.Cu) (net 39))
+
   (via (at 194.945 69.85) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 39))
   (segment (start 198.12 69.85) (end 194.945 69.85) (width 0.25) (layer B.Cu) (net 39))
   (segment (start 199.39 68.58) (end 198.12 69.85) (width 0.25) (layer B.Cu) (net 39))
@@ -5547,6 +5599,7 @@
   (segment (start 201.295 60.96) (end 199.39 62.865) (width 0.25) (layer B.Cu) (net 39))
   (segment (start 214.63 60.96) (end 201.295 60.96) (width 0.25) (layer B.Cu) (net 39))
   (segment (start 217.17 63.5) (end 214.63 60.96) (width 0.25) (layer B.Cu) (net 39))
+
   (segment (start 217.17 66.04) (end 217.17 63.5) (width 0.25) (layer B.Cu) (net 39) (status 10))
   (segment (start 194.945 71.485) (end 195.85 72.39) (width 0.25) (layer F.Cu) (net 39))
   (segment (start 194.945 69.85) (end 194.945 71.485) (width 0.25) (layer F.Cu) (net 39))
@@ -5588,6 +5641,7 @@
   (segment (start 160.325 68.885) (end 160.528 68.682) (width 0.25) (layer F.Cu) (net 42))
   (segment (start 162.415001 57.294999) (end 162.56 57.15) (width 0.25) (layer B.Cu) (net 42) (status 30))
   (segment (start 162.415001 66.692999) (end 162.415001 57.294999) (width 0.25) (layer B.Cu) (net 42) (status 20))
+
   (segment (start 160.528 68.58) (end 162.415001 66.692999) (width 0.25) (layer B.Cu) (net 42))
   (segment (start 168.535 69.435) (end 170.18 71.08) (width 0.25) (layer F.Cu) (net 43))
   (segment (start 167.335 69.435) (end 168.535 69.435) (width 0.25) (layer F.Cu) (net 43) (status 10))
@@ -5604,6 +5658,7 @@
   (via (at 171.45 72.39) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 44))
   (segment (start 171.45 58.42) (end 172.72 57.15) (width 0.25) (layer B.Cu) (net 44) (status 20))
   (segment (start 171.45 72.39) (end 171.45 58.42) (width 0.25) (layer B.Cu) (net 44))
+
   (segment (start 160.260001 73.399999) (end 160.325 73.335) (width 0.25) (layer F.Cu) (net 45) (status 30))
   (segment (start 160.260001 73.419999) (end 160.260001 73.399999) (width 0.25) (layer F.Cu) (net 45) (status 30))
   (segment (start 159.06 73.335) (end 160.325 73.335) (width 0.25) (layer F.Cu) (net 45) (status 20))
@@ -5619,6 +5674,7 @@
   (segment (start 155.019999 78.025001) (end 147.325001 78.025001) (width 0.25) (layer F.Cu) (net 45))
   (segment (start 155.575 77.47) (end 155.019999 78.025001) (width 0.25) (layer F.Cu) (net 45))
   (segment (start 110.49 57.15) (end 118.15 57.15) (width 0.25) (layer F.Cu) (net 46) (status 30))
+
   (segment (start 121.97501 55.82499) (end 132.02499 55.82499) (width 0.25) (layer F.Cu) (net 47))
   (segment (start 132.02499 55.82499) (end 133.35 57.15) (width 0.25) (layer F.Cu) (net 47) (status 20))
   (segment (start 120.65 57.15) (end 121.97501 55.82499) (width 0.25) (layer F.Cu) (net 47) (status 10))
@@ -5628,6 +5684,7 @@
   (segment (start 208.915 112.03) (end 203.2 112.03) (width 0.25) (layer F.Cu) (net 48))
   (segment (start 204.2 129.54) (end 213.63 129.54) (width 0.25) (layer F.Cu) (net 49))
   (segment (start 212.309997 107.335001) (end 237.094998 82.55) (width 0.25) (layer B.Cu) (net 50))
+
   (segment (start 237.094998 82.55) (end 241.3 82.55) (width 0.25) (layer B.Cu) (net 50))
   (segment (start 198.12 114.03) (end 198.12 113.665) (width 0.25) (layer F.Cu) (net 50))
   (segment (start 198.12 113.665) (end 202.565 109.22) (width 0.25) (layer F.Cu) (net 50))
@@ -5683,16 +5740,19 @@
   (segment (start 166.37 95.25) (end 167.005 95.25) (width 0.25) (layer B.Cu) (net 61) (status 30))
   (segment (start 167.005 95.25) (end 167.64 94.615) (width 0.25) (layer B.Cu) (net 61) (status 10))
   (segment (start 167.64 94.615) (end 168.184999 94.070001) (width 0.25) (layer B.Cu) (net 61))
+
   (via (at 172.085 74.734412) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 61))
   (segment (start 168.184999 94.070001) (end 168.184999 90.260001) (width 0.25) (layer B.Cu) (net 61))
   (segment (start 168.184999 90.260001) (end 168.184999 88.355001) (width 0.25) (layer B.Cu) (net 61))
   (segment (start 168.184999 88.355001) (end 168.184999 88.174999) (width 0.25) (layer B.Cu) (net 61))
   (segment (start 168.184999 88.174999) (end 167.64 87.63) (width 0.25) (layer B.Cu) (net 61))
+
   (via (at 167.64 87.63) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 61))
   (segment (start 167.64 84.328) (end 170.688 81.28) (width 0.25) (layer F.Cu) (net 61))
   (segment (start 167.64 87.63) (end 167.64 84.328) (width 0.25) (layer F.Cu) (net 61))
   (segment (start 170.688 81.28) (end 172.72 81.28) (width 0.25) (layer F.Cu) (net 61))
   (segment (start 172.72 81.28) (end 173.99 80.01) (width 0.25) (layer F.Cu) (net 61))
+
   (via (at 173.99 80.01) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 61))
   (segment (start 173.99 76.639412) (end 172.085 74.734412) (width 0.25) (layer B.Cu) (net 61))
   (segment (start 173.99 80.01) (end 173.99 76.639412) (width 0.25) (layer B.Cu) (net 61))
@@ -5707,9 +5767,11 @@
   (segment (start 162.588501 78.269807) (end 162.588501 78.260501) (width 0.25) (layer B.Cu) (net 63))
   (segment (start 162.588501 78.260501) (end 162.052 77.724) (width 0.25) (layer B.Cu) (net 63))
   (via (at 162.052 77.724) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 63))
+
   (segment (start 161.563 77.235) (end 160.325 77.235) (width 0.25) (layer F.Cu) (net 63) (status 20))
   (segment (start 162.052 77.724) (end 161.563 77.235) (width 0.25) (layer F.Cu) (net 63))
   (segment (start 181.61 100.33) (end 179.07 100.33) (width 0.25) (layer B.Cu) (net 66) (status 10))
+
   (segment (start 179.07 100.33) (end 176.53 102.87) (width 0.25) (layer B.Cu) (net 66))
   (via (at 176.53 102.87) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 66))
   (segment (start 176.53 102.87) (end 176.53 105.41) (width 0.25) (layer F.Cu) (net 66))
@@ -5722,9 +5784,11 @@
   (segment (start 168.91 93.98) (end 168.91 91.44) (width 0.25) (layer B.Cu) (net 66))
   (via (at 168.91 87.63) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 66))
   (segment (start 168.91 91.44) (end 168.91 87.63) (width 0.25) (layer B.Cu) (net 66))
+
   (segment (start 160.405 76.585) (end 160.489999 76.669999) (width 0.25) (layer F.Cu) (net 66) (status 30))
   (segment (start 160.325 76.585) (end 160.405 76.585) (width 0.25) (layer F.Cu) (net 66) (status 30))
   (segment (start 168.91 87.63) (end 168.91 85.598) (width 0.25) (layer F.Cu) (net 66))
+
   (via (at 168.91 85.598) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 66))
   (segment (start 162.044343 78.747657) (end 162.043263 78.747657) (width 0.25) (layer B.Cu) (net 66))
   (segment (start 162.052 78.74) (end 162.044343 78.747657) (width 0.25) (layer B.Cu) (net 66))
@@ -5734,18 +5798,23 @@
   (segment (start 168.398155 85.086155) (end 168.331847 85.086155) (width 0.25) (layer B.Cu) (net 66))
   (segment (start 168.91 85.598) (end 168.398155 85.086155) (width 0.25) (layer B.Cu) (net 66))
   (via (at 162.043263 78.747657) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 66))
+
   (segment (start 160.39001 76.65001) (end 160.325 76.585) (width 0.25) (layer F.Cu) (net 66) (status 30))
   (segment (start 162.051012 76.65001) (end 160.39001 76.65001) (width 0.25) (layer F.Cu) (net 66) (status 20))
+
   (segment (start 162.777001 77.375999) (end 162.051012 76.65001) (width 0.25) (layer F.Cu) (net 66))
   (segment (start 162.777001 78.579604) (end 162.777001 77.375999) (width 0.25) (layer F.Cu) (net 66))
   (segment (start 162.608948 78.747657) (end 162.777001 78.579604) (width 0.25) (layer F.Cu) (net 66))
   (segment (start 162.043263 78.747657) (end 162.608948 78.747657) (width 0.25) (layer F.Cu) (net 66))
+
   (segment (start 160.325 75.935) (end 161.402 75.935) (width 0.25) (layer F.Cu) (net 68) (status 10))
+
   (segment (start 173.355 85.725) (end 175.895 85.725) (width 0.25) (layer B.Cu) (net 68))
   (segment (start 173.355 85.725) (end 172.085 85.725) (width 0.25) (layer B.Cu) (net 68))
   (segment (start 172.085 85.725) (end 162.56 76.2) (width 0.25) (layer B.Cu) (net 68))
   (via (at 162.593154 76.166846) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 68))
   (segment (start 162.56 76.2) (end 162.593154 76.166846) (width 0.25) (layer B.Cu) (net 68))
+
   (segment (start 162.361308 75.935) (end 160.325 75.935) (width 0.25) (layer F.Cu) (net 68) (status 20))
   (segment (start 162.593154 76.166846) (end 162.361308 75.935) (width 0.25) (layer F.Cu) (net 68))
   (segment (start 175.895 85.725) (end 176.53 85.725) (width 0.25) (layer B.Cu) (net 68))
@@ -5757,6 +5826,7 @@
   (segment (start 183.388 93.472) (end 181.61 95.25) (width 0.25) (layer F.Cu) (net 68))
   (segment (start 183.388 89.916) (end 183.388 93.472) (width 0.25) (layer F.Cu) (net 68))
   (segment (start 191.77 76.2) (end 191.77 80.518) (width 0.25) (layer B.Cu) (net 71) (status 10))
+
   (segment (start 191.77 80.518) (end 190.5 81.788) (width 0.25) (layer B.Cu) (net 71))
   (via (at 190.5 81.788) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 71))
   (segment (start 179.039845 81.802012) (end 175.235835 77.998002) (width 0.25) (layer F.Cu) (net 71))
@@ -5766,10 +5836,12 @@
   (segment (start 175.235835 77.998002) (end 168.889998 77.998002) (width 0.25) (layer F.Cu) (net 71))
   (segment (start 168.238001 78.649999) (end 165.517999 78.649999) (width 0.25) (layer F.Cu) (net 71))
   (segment (start 165.517999 78.649999) (end 163.576 76.708) (width 0.25) (layer F.Cu) (net 71))
+
   (segment (start 166.209998 76.585) (end 167.335 76.585) (width 0.25) (layer F.Cu) (net 71) (status 20))
   (segment (start 166.086998 76.708) (end 166.209998 76.585) (width 0.25) (layer F.Cu) (net 71))
   (segment (start 163.576 76.708) (end 166.086998 76.708) (width 0.25) (layer F.Cu) (net 71))
   (segment (start 167.335 75.935) (end 168.391 75.935) (width 0.25) (layer F.Cu) (net 73) (status 10))
+
   (segment (start 168.391 75.957) (end 168.656 76.222) (width 0.25) (layer F.Cu) (net 73))
   (segment (start 168.391 75.935) (end 168.391 75.957) (width 0.25) (layer F.Cu) (net 73))
   (segment (start 168.656 76.222) (end 168.656 76.708) (width 0.25) (layer F.Cu) (net 73))
@@ -5783,7 +5855,9 @@
   (segment (start 175.960836 77.650001) (end 178.934837 74.676) (width 0.25) (layer B.Cu) (net 73))
   (segment (start 178.934837 74.676) (end 183.896 74.676) (width 0.25) (layer B.Cu) (net 73))
   (via (at 183.896 74.676) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 73))
+
   (segment (start 185.166 74.676) (end 186.69 76.2) (width 0.25) (layer F.Cu) (net 73) (status 20))
+
   (segment (start 183.896 74.676) (end 185.166 74.676) (width 0.25) (layer F.Cu) (net 73))
 
 )
